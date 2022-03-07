@@ -21,7 +21,7 @@ it('criar usuario de iframe', () => {
 
     cy.iframe('[id="id_do_iframe"][src*="https://automacaocombatista.herokuapp.com/"]').find('input[name="commit"][type="submit"]').should('be.visible').click()
     
-    //cy.iframe('[id="id_do_iframe"][src*="https://automacaocombatista.herokuapp.com/"]').find('p[id="notice"]').contains('Usuário Criado com sucesso').should('be.visible')
+    
 
     
 
